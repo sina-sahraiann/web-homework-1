@@ -8,7 +8,7 @@ export default function CaseStudyPage() {
       {/* Header */}
       <header className="container mx-auto px-4 py-6 flex justify-between items-center">
         <Link href="/public" className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-blue-600 rounded"></div>
+          <Image src={'/logo.png'} width="50" height="50" alt="Logo" />
         </Link>
         <nav className="hidden md:flex space-x-6 text-sm">
           <Link href="/who-we-are" className="text-gray-600 hover:text-gray-900">
@@ -71,7 +71,7 @@ export default function CaseStudyPage() {
               {/* Project Showcase */}
               <div className="relative aspect-[16/9] bg-black rounded-lg overflow-hidden">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Case%20Study-69tKCax7cfN6kVqDktBWYa8gQR2wjE.png"
+                  src="/two_black.png"
                   alt="Friends Entertainment mobile app showcase"
                   fill
                   className="object-contain"
@@ -79,8 +79,7 @@ export default function CaseStudyPage() {
               </div>
 
               {/* Content Sections */}
-              <section id="introduction" className="space-y-4">
-                <h2 className="text-2xl font-bold">Introduction</h2>
+              <section id="introduction" className="space-y-4 mx-auto max-w-xl">
                 <p className="text-gray-600">
                   A team of tech specialists in a business that'll hopefully entangle the impossible drivers of big
                   creative vision a before-time possible world. Here's us with some a delicious and you could be a part
@@ -89,8 +88,7 @@ export default function CaseStudyPage() {
                 </p>
               </section>
 
-              <section id="who-we-help" className="space-y-4">
-                <h2 className="text-2xl font-bold">Who We Help</h2>
+              <section id="who-we-help" className="space-y-4 mx-auto max-w-xl">
                 <p className="text-gray-600">
                   Network of excellence a still more glorious dawn awaits content and clients that you face are
                   inspirational relations to basically only through that stored by plan with. Concept of the further one
@@ -103,18 +101,38 @@ export default function CaseStudyPage() {
               <div className="space-y-8">
                 <div className="relative aspect-[16/9] bg-black rounded-lg overflow-hidden">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Case%20Study-69tKCax7cfN6kVqDktBWYa8gQR2wjE.png"
-                    alt="Mobile app interface"
-                    fill
-                    className="object-contain"
+                      src="/two_black.png"
+                      alt="Mobile app interface"
+                      fill
+                      className="object-contain"
                   />
                 </div>
+                <section id="introduction" className="space-y-4 mx-auto max-w-xl">
+                  <p className="text-gray-600">
+                    A team of tech specialists in a business that'll hopefully entangle the impossible drivers of big
+                    creative vision a before-time possible world. Here's us with some a delicious and you could be a
+                    part
+                    of this great design experience that's little good evidence not a narrative but a particular action
+                    that the concepts.
+                  </p>
+                </section>
+
+                <section id="who-we-help" className="space-y-4 mx-auto max-w-xl">
+                  <p className="text-gray-600">
+                    Network of excellence a still more glorious dawn awaits content and clients that you face are
+                    inspirational relations to basically only through that stored by plan with. Concept of the further
+                    one
+                    up a point in light at the edge of forever there's a little good evidence not a happy direct
+                    citizens
+                    of distant special needs.
+                  </p>
+                </section>
                 <div className="relative aspect-[16/9] bg-black rounded-lg overflow-hidden">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Case%20Study-69tKCax7cfN6kVqDktBWYa8gQR2wjE.png"
-                    alt="Mobile app interface"
-                    fill
-                    className="object-contain"
+                      src="/two_black.png"
+                      alt="Mobile app interface"
+                      fill
+                      className="object-contain"
                   />
                 </div>
               </div>
@@ -128,7 +146,7 @@ export default function CaseStudyPage() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center border-t pt-12">
           <div className="mb-8 md:mb-0">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-blue-600 rounded"></div>
+              <Image src={'/logo.png'} width="50" height="50" alt="Logo" />
             </div>
             <div className="space-y-2">
               <p className="text-sm">Have a project in mind?</p>
